@@ -1,0 +1,70 @@
+ body {
+     background-color: rgb(243, 238, 233);
+
+ }
+
+ h1 {
+     text-align: center;
+     text-decoration: underline;
+     color: teal;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ #container {
+
+     width: 90%;
+     margin: auto;
+     margin-top: 40px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+     min-height: 500px;
+
+ }
+
+ #container>div {
+
+     display: flex;
+     flex-direction: column;
+     padding: 30px;
+     justify-content: center;
+     border-radius: 20px;
+     background-color: bisque;
+ }
+
+ button {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 200px;
+     font-size: 17px;
+     padding: 4px;
+     border-radius: 6px;
+ }
+
+ #inputSection {
+
+     height: 80%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+
+ #inputSection>textarea {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     padding: 6px;
+ }
+
+ #inputSection>select {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     padding: 3px;
+ }
+
+ #outputSection {
+     height: 80%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ #outputSection>p {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+ }
